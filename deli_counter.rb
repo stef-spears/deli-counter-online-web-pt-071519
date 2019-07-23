@@ -4,11 +4,10 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else 
-    lineup = []
+    lineup = "The line is currently: "
     katz_deli.each.with_index(1) do |value, index|
       lineup << "#{index}. #{value} "
-      
-    puts "The line is currently: #{string_lineup}" 
+      puts lineup
     end
   end
 end
