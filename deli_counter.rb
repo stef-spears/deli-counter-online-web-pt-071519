@@ -7,7 +7,7 @@ def line(katz_deli)
     lineup = []
     katz_deli.each.with_index(1) do |value, index|
       lineup << "#{index}. #{value} "
-      string_lineup = lineup.join()
+      
     puts "The line is currently: #{string_lineup}" 
     end
   end
