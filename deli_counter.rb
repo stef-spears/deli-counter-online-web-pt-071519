@@ -9,8 +9,10 @@ def line(katz_deli)
       lineup << "#{index}. #{value} "
       
     end
-    puts lineup
+    
   end
+  
+  puts lineup
 end
 
 def take_a_number(katz_deli, name)
