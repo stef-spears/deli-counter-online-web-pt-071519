@@ -8,7 +8,7 @@ def line(katz_deli)
     katz_deli.each.with_index(1) do |value, index|
       lineup << "#{index}. #{value} "
     end
-    puts lineup.pop()
+    puts lineup
   end
 end
 
