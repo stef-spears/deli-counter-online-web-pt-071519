@@ -6,8 +6,8 @@ def line(katz_deli)
   else 
     lineup = []
     katz_deli.each.with_index(1) do |value, index|
-      lineup << #{index}. #{value} 
-    puts "The line is currently: " 
+      lineup << "#{index}. #{value} "
+    puts "The line is currently: #{lineup}" 
     end
   end
 end
